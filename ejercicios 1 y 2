@@ -1,0 +1,14 @@
+class PrimeraVariable
+{
+public static void main ( String[] args ) { 
+   Int numero1 = 1;
+   System.out.println(numero1);
+  
+   numero1 = 2;
+   System.out.println(numero1);
+   
+   int[] arr;
+   arr = new int[4];
+   System.out.println([0]);         
+ }
+}
