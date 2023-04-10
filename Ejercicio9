@@ -9,6 +9,17 @@ public class Aliss {
         System.out.println(cliente.telefono);
         cliente.credito = -500;
         System.out.println(cliente.credito);
+        Trabajador trabajador = new Trabajador();
+        trabajador.salario = 1000;
+        System.out.println(trabajador.salario);
+        trabajador.edad = 40;
+        System.out.println(trabajador.edad);
+        trabajador.nombre = "Rú";
+        System.out.println(trabajador.nombre);
+        trabajador.telefono = 66666666;
+        System.out.println(trabajador.telefono);
+        trabajador.credito = 200;
+        System.out.println(trabajador.credito);
 
 
     }
@@ -20,4 +31,7 @@ class Person{
 }
 class Cliente extends Person{
     int credito;
+}
+class Trabajador extends Cliente{
+    int salario;
 }
