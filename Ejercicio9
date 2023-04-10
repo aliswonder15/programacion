@@ -1,0 +1,23 @@
+public class Aliss {
+    public static void main(String[] args) {
+        Cliente cliente = new Cliente();
+        cliente.edad = 27;
+        System.out.println(cliente.edad);
+        cliente.nombre = "Aliss";
+        System.out.println(cliente.nombre);
+        cliente.telefono = 310216827;
+        System.out.println(cliente.telefono);
+        cliente.credito = -500;
+        System.out.println(cliente.credito);
+
+
+    }
+}
+class Person{
+    int edad;
+    String nombre;
+    long telefono;
+}
+class Cliente extends Person{
+    int credito;
+}
